@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img class="header-img" id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL5w1GW2jESxw0T07mOrE9l0mj1OLONZQ1Zw&usqp=CAU" alt="Company Logo"> <h1>The Computer Store</h1>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#RAM"> RAM </a><br>
+            <a class="nav-link" href="#CPU"> CPU </a><br>
+            <a class="nav-link" href="#GPU"> GPU </a><br>
+        </nav>
+    </header>
+
+    <section id="RAM">
+        <a target="_blank" href="https://shopee.ph/Crucial-Ballistix-Desktop-PC-RAM-DDR4-2666MHz-3200MHz-Unbuffered-DIMM-PC-21300-25600-Desktop-Gaming-Memoria-Dual-Channel-i.343405469.20588457158?sp_atk=97d8214e-37dd-4318-bf81-03cff58ec982&xptdk=97d8214e-37dd-4318-bf81-03cff58ec982">
+            <img src="https://down-ph.img.susercontent.com/file/sg-11134201-7qvf4-lggds3f5werne5" alt="2600hz RAM DDR4">
+        </a>
+        
+    
+    </section>
+
+    <section id="CPU">
+        <a target="_blank" href="https://shopee.ph/USED-AMD-Ryzen-3-3100-R3-3100-3.6-GHz-Quad-Core-Eight-Thread-65W-CPU-Processor-L3-16M-100-000000184-Socket-AM4-NO-Fan-i.721493043.14469342234?sp_atk=73bbd9c1-c46b-4221-88d8-1eebfd52a085&xptdk=73bbd9c1-c46b-4221-88d8-1eebfd52a085">
+            <img src="https://down-ph.img.susercontent.com/file/b68e83f430b8488ec450a9a8148e311c" alt="Ryzen 3 3100">
+        </a>
+        
+    </section>
+
+    <section id="GPU">
+        <a target="_blank" href="https://shopee.ph/SAPPHIRE-XFX-RX580-RX590-2048sp-8GB-D5-DUAL-FAN-AMD-Graphic-Graphics-Card-grafik-cards-99-NWE-Used-i.1044296066.22075571558?sp_atk=c53bf20c-7518-408b-94b0-895b018784e2&xptdk=c53bf20c-7518-408b-94b0-895b018784e2">
+            <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7qul0-lkf3mh9o288u69" alt="RX 580 2048 SP">
+        </a>
+    </section>
+
+    <iframe width="420" height="315" id="video"
+        src="https://www.youtube.com/watch?v=FB4-gmjbgDc&pp=ygUTZ2FybnQgb24gZGFraW1ha3VyYQ%3D%3D">
+    </iframe>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <label for="email">Email:</label>
+        <input name="email" id="email" type="email" placeholder="Enter your email" required>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
